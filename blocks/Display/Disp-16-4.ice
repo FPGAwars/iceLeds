@@ -217,6 +217,31 @@
           }
         },
         {
+          "id": "063e9010-bc16-4957-aeca-5a2a93c1f173",
+          "type": "basic.output",
+          "data": {
+            "name": "n",
+            "range": "[1:0]",
+            "pins": [
+              {
+                "index": "1",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 1160,
+            "y": 280
+          }
+        },
+        {
           "id": "a655e940-39c4-45c2-af8a-0cd9fa3b332b",
           "type": "basic.outputLabel",
           "data": {
@@ -428,6 +453,17 @@
           "target": {
             "block": "87006d55-126f-491a-9a0c-102af8f25b8d",
             "port": "30cadf82-ba9d-44ad-8651-a0f430398fdc"
+          },
+          "size": 2
+        },
+        {
+          "source": {
+            "block": "0f461f03-f7c4-4066-acb4-b3465a294783",
+            "port": "40941bd2-014e-4fca-8f0f-7769b8567ac0"
+          },
+          "target": {
+            "block": "063e9010-bc16-4957-aeca-5a2a93c1f173",
+            "port": "in"
           },
           "size": 2
         }
